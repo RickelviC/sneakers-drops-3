@@ -19,6 +19,12 @@ public class Sneaker {
     public Sneaker() {
     }
 
+    public Sneaker(String model, double price, int releaseYear) {
+        this.model = model;
+        this.price = price;
+        this.releaseYear = releaseYear;
+    }
+
     public Long getId() {
         return this.id;
     }

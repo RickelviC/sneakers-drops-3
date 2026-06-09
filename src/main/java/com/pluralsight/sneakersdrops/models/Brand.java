@@ -14,6 +14,10 @@ public class Brand {
     private Long Id;
     private String name;
 
+    public Brand(String name) {
+        this.name = name;
+    }
+
     public Brand() {
     }
 
